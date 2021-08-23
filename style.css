@@ -31,3 +31,14 @@ a, a:visited, a:active {
   body {line-height: 0;}
   img {display: block; vertical-align: bottom;}
 
+  #degrade_circular{
+    background-image: radial-gradient(center center, circle cover, #204A85, #1F2330);
+    background-image: -o-radial-gradient(center center, circle cover, #204A85, #1F2330);
+    background-image: -ms-radial-gradient(center center, circle cover, #204A85, #1F2330);
+    background-image: -moz-radial-gradient(center center, circle cover, #204A85, #1F2330);
+    background-image: -webkit-radial-gradient(center center, circle cover, #204A85, #1F2330);
+  position:relative;
+  float:left;
+  height:250px;
+  width:100%;
+

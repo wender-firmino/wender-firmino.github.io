@@ -50,6 +50,11 @@ a, a:visited, a:active {
   width:100%;
   }
 
+  .degrade_vertical{
+    background-image: linear-gradient(#2C69B1, #1F2330);    
+    width:100%;
+  }
+
   .fundo-azul{
     background-color:#244375!important;
     position:relative;
@@ -91,6 +96,17 @@ a, a:visited, a:active {
     z-index: 9999;
   }
   
+  .divRowVerde{
+    margin-top:20px;
+    background-color:#B1CB06!important;
+    margin-bottom:20px;
+  }
+  .divRow {    
+    margin-top:20px;
+  }
+  .divRowB {    
+    margin-bottom:40px;
+  }
 
 
   

@@ -65,4 +65,33 @@ a, a:visited, a:active {
     vertical-align:middle;
     z-index: 9999;
   }
+
+  .fundo-verde{
+    background-color:#B1CB06!important;
+    position:relative;
+  float:left;
+  height:60px;
+  width:100%;
+  }
+
+  .fundo-branco{
+    background-color:#FFFF!important;
+    position:relative;
+  float:left;
+  height:60px;
+  width:100%;
+  }
+
+  .super-centered {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    text-align:center; 
+    vertical-align:middle;
+    z-index: 9999;
+  }
+  
+
+
+  
  

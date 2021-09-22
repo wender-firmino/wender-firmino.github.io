@@ -1,0 +1,314 @@
+body{
+  background-color:white!important;
+}
+
+
+a, a:visited, a:active {
+color: inherit;
+text-decoration: none;
+}
+
+a:hover{
+   color:yellow;
+   text-decoration: none;
+}
+
+table{
+ /* border: 1px solid black;*/
+
+}
+table td {
+  border: 0px; /* solid black;  Style just to show the table cell boundaries */
+ /* display: block;*/
+
+}
+
+/*
+font-family: 'MADE Outer Sans Alt', sans-serif;
+font-family: 'MADE Outer Sans', sans-serif;
+font-family: 'MADE Outer Sans Outline Alt', sans-serif;
+font-family: 'MADE Outer Sans Outline', sans-serif;
+*/
+
+table.no-spacing {
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+
+body {line-height: 0;}
+img {display: block; vertical-align: bottom;}
+
+.degrade_circular{
+  background-image: radial-gradient(center center, circle cover, #2C69B1, #1F2330);
+  background-image: -o-radial-gradient(center center, circle cover, #2C69B1, #1F2330);
+  background-image: -ms-radial-gradient(center center, circle cover, #2C69B1, #1F2330);
+  background-image: -moz-radial-gradient(center center, circle cover, #2C69B1, #1F2330);
+  background-image: -webkit-radial-gradient(center center, circle cover, #2C69B1, #1F2330);
+position:relative;
+float:left;
+height:250px;
+width:100%;
+}
+
+.degrade_vertical{
+  background-image: linear-gradient(#2C69B1, #1F2330);    
+  width:100%;
+  padding-left:40px;
+}
+
+.fundo-azul{
+  background-color:#2e4975!important;
+  position:relative;
+float:left;
+height:60px;
+width:100%;
+}
+
+.fundo-azul2{
+  background-color:#244375!important;
+  position:relative;
+float:left;
+height:60px;
+width:100%;
+}
+.super-centered {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  text-align:center; 
+  vertical-align:middle;
+  z-index: 9999;
+}
+
+.fundo-verde{
+  background-color:#B1CB06!important;
+  position:relative;
+float:left;
+height:55px;
+width:100%;
+}
+
+.fundo-branco{
+  background-color:#FFFF!important;
+  position:relative;
+float:left;
+height:80px;
+width:100%;
+}
+
+.super-centered {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  text-align:center; 
+  vertical-align:middle;
+  z-index: 9999;
+}
+
+.divRowVerde{
+  margin-top:20px;
+  background-color:#B1CB06!important;
+  margin-bottom:20px;
+}
+.divRow {    
+  margin-top:20px;
+}
+.divRowB {    
+  margin-bottom:40px;  
+}
+
+.divRowApoiadores {    
+  margin-top:20px;
+  width: 90%;
+}
+
+
+
+#btnScroll {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#btnScroll:hover {
+  background-color: #555;
+}
+area:link, area:hover, area:active, area:focus {
+  border: 5px rgb(251, 255, 0) solid;
+ }
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.col1ln1 {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.col1ln2 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+}
+.col1ln3 {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+}
+.col1ln4 {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+}
+.col1ln5 {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.col2ln1 {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln2 {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln3 {
+    position: absolute;
+    top: 340px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln4 {
+    position: absolute;
+    top: 410px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln5 {
+    position: absolute;
+    top: 480px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln6 {
+    position: absolute;
+    top: 530px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln7 {
+    position: absolute;
+    top: 580px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.col2ln8 {
+    position: absolute;
+    top: 510px;
+    right: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.window {
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 2700px;
+    height: 300px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slide {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    top: -10px;
+    position: relative;
+}
+
+.slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#slide-1:target ~ .image-container {
+    left: 0;
+}
+
+#slide-2:target ~ .image-container {
+    left: -450px;
+}
+
+#slide-3:target ~ .image-container {
+    left: -900px;
+}
+
+#slide-4:target ~ .image-container {
+    left: -1350px;
+}
+
+#slide-5:target ~ .image-container {
+    left: -1800px;
+}

@@ -84,7 +84,7 @@ width:100%;
   background-color:#B1CB06!important;
   position:relative;
 float:left;
-height:55px;
+height:60px;
 width:100%;
 }
 
@@ -254,8 +254,7 @@ area:link, area:hover, area:active, area:focus {
     font-weight: bold;
 }
 
-
-.window {
+.windowCard {
     width: 450px;
     height: 300px;
     margin-left: auto;
@@ -264,8 +263,8 @@ area:link, area:hover, area:active, area:focus {
     text-align: center;
 }
 
-.image-container {
-    width: 2700px;
+.image-containerC {
+    width: 2250px;
     height: 300px;
     position: relative;
     transition: left 2s;
@@ -274,14 +273,14 @@ area:link, area:hover, area:active, area:focus {
     -o-transition: left 2s;
 }
 
-.slide {
+.slideC {
     float: left;
     margin: 0;
     padding: 0;
 }
 
-.button-container {
-    top: -10px;
+.button-containerC {
+    top: -20px;
     position: relative;
 }
 
